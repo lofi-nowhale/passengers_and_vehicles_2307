@@ -17,14 +17,14 @@ class Park
     @passengers << vehicle.passengers
   end
 
-  def collect_fees
-    adult_passengers = []
-    @passengers.find_all do |passenger|
-      if passenger.age >= 18
-        adult_passengers << passenger
-      end
-      @revenue += 10
-    end
-    revenue
-  end
+  # def collect_fees
+  #   adult_passengers = []
+  #   @passengers.find_all do |passenger|
+  #     if passenger.age >= 18
+  #       adult_passengers << passenger
+  #     end
+  #     @revenue += 10
+  #   end
+  #   revenue
+  # end
 end
