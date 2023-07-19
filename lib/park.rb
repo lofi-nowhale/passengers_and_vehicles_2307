@@ -20,7 +20,7 @@ class Park
   # def collect_fees
   #   adult_passengers = []
   #   @passengers.find_all do |passenger|
-  #     if passenger.age >= 18
+  #     if passenger.age >= 18 
   #       adult_passengers << passenger
   #     end
   #     @revenue += 10

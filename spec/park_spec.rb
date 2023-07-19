@@ -98,6 +98,4 @@ RSpec.describe Park do
 
   #   expect(park.revenue).to eq(20)
   # end
-
-
 end
